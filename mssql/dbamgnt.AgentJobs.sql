@@ -1,3 +1,50 @@
+USE [msdb]
+GO
+
+/****** Object:  Job [sp_purge_jobhistory]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'sp_purge_jobhistory', @delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [sp_delete_backuphistory]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'sp_delete_backuphistory', @delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [Output File Cleanup]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'Output File Cleanup', @delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [IndexOptimize - USER_DATABASES]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'IndexOptimize - USER_DATABASES', @delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [DatabaseIntegrityCheck - USER_DATABASES]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'DatabaseIntegrityCheck - USER_DATABASES',@delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [DatabaseIntegrityCheck - SYSTEM_DATABASES]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'DatabaseIntegrityCheck - SYSTEM_DATABASES',@delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [DatabaseBackup - USER_DATABASES - LOG]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'DatabaseBackup - USER_DATABASES - LOG',@delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [DatabaseBackup - USER_DATABASES - FULL]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'DatabaseBackup - USER_DATABASES - FULL',@delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [DatabaseBackup - USER_DATABASES - DIFF]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'DatabaseBackup - USER_DATABASES - DIFF',@delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [DatabaseBackup - SYSTEM_DATABASES - FULL]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'DatabaseBackup - SYSTEM_DATABASES - FULL',@delete_unused_schedule=0,@delete_history=0
+GO
+
+/****** Object:  Job [CommandLog Cleanup]    Script Date: 9/5/2017 6:16:44 AM ******/
+EXEC msdb.dbo.sp_delete_job @job_name=N'CommandLog Cleanup',@delete_unused_schedule=0,@delete_history=0
+GO
+
 SET NOCOUNT ON
 
 DECLARE @CreateJobs nvarchar(max)
@@ -237,3 +284,5 @@ BEGIN
     EXECUTE msdb.dbo.sp_add_jobserver @job_name = @JobName11
   END
  END
+ GO
+ EXEC dbamgnt.dbo.sp_UpdateSQLJobLogFileLocation

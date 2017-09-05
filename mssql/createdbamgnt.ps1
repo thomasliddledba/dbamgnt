@@ -83,6 +83,51 @@ sqlcmd -S $SQLServerName -E -i $QueryFile
 $QueryFile = "$CurrentLocation\dbo.sp_help_revlogin.StoredProcedure.sql"
 sqlcmd -S $SQLServerName -E -i $QueryFile
 
+$QueryFile = "$CurrentLocation\dbo.sp_DataDump.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_DataLoad.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_GeneratePassword.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_GetWindowsLoginAuthenticationMethod.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_ListDatabasePermissions.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_SetupNewDBAccountWithMirrorDBAccount.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.tb_DataDump_log.Table.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.tb_DataDump_parm.Table.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.tb_DataLoad_parm.Table.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.tb_FilePolling_log.Table.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.tb_FilePolling_parm.Table.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.tb_HelpJob_parm.Table.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_UpdateSQLJobLogFileLocation.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+$QueryFile = "$CurrentLocation\dbo.sp_UpdateSQLJobOwner.StoredProcedure.sql"
+sqlcmd -S $SQLServerName -E -i $QueryFile
+
+
+
+
 $QueryFile = "$CurrentLocation\dbamgnt.AgentJobs.sql"
 sqlcmd -S $SQLServerName -E -i $QueryFile
 
