@@ -1,8 +1,6 @@
 #### 
 
-[Project](../../../../index.md) > [SERVER\\MSSQL1601](../../../index.md) > [User databases](../../index.md) > [dbamgnt](../index.md) > [Tables](Tables.md) > dbo.tb_DataDump_log
-
-# ![Tables](../../../../Images/Table32.png) [dbo].[tb_DataDump_log]
+# ![Tables](../Images/Table32.png) [dbo].[tb_DataDump_log]
 
 ---
 
@@ -10,7 +8,7 @@
 
 | Key | Name | Data Type | Max Length (Bytes) | Allow Nulls | Identity | Default |
 |---|---|---|---|---|---|---|
-| [![Cluster Primary Key PK_tb_DataDump_log: LogID](../../../../Images/pkcluster.png)](#indexes) | LogID | int | 4 | NO | 1 - 1 |  |
+| [![Cluster Primary Key PK_tb_DataDump_log: LogID](../Images/pkcluster.png)](#indexes) | LogID | int | 4 | NO | 1 - 1 |  |
 |  | TransactionID | varchar(max) | max | NO |  |  |
 |  | AppID | varchar(6) | 6 | NO |  |  |
 |  | Date_Time | datetime | 8 | NO |  | (getdate()) |
@@ -31,6 +29,3 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
-

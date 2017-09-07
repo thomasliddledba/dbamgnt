@@ -1,8 +1,6 @@
 #### 
 
-[Project](../../../../index.md) > [SERVER\\MSSQL1601](../../../index.md) > [User databases](../../index.md) > [dbamgnt](../index.md) > [Tables](Tables.md) > dbo.tb_DataDump_parm
-
-# ![Tables](../../../../Images/Table32.png) [dbo].[tb_DataDump_parm]
+# ![Tables](../Images/Table32.png) [dbo].[tb_DataDump_parm]
 
 ---
 
@@ -10,7 +8,7 @@
 
 | Key | Name | Data Type | Max Length (Bytes) | Allow Nulls | Default |
 |---|---|---|---|---|---|
-| [![Cluster Primary Key PK_tb_DataDump_parm_1: AppID](../../../../Images/pkcluster.png)](#indexes) | AppID | char(6) | 6 | NO |  |
+| [![Cluster Primary Key PK_tb_DataDump_parm_1: AppID](../Images/pkcluster.png)](#indexes) | AppID | char(6) | 6 | NO |  |
 |  | DatabaseName | varchar(512) | 512 | NO |  |
 |  | ObjectName | varchar(512) | 512 | NO |  |
 |  | FileLocation | varchar(512) | 512 | NO |  |
@@ -46,6 +44,3 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
-

@@ -1,7 +1,5 @@
 #### 
 
-[Project](../../../../index.md) > [SERVER\\MSSQL1601](../../../index.md) > [User databases](../../index.md) > [dbamgnt](../index.md) > [Tables](Tables.md) > dbo.tb_FilePolling_parm
-
 # ![Tables](../../../../Images/Table32.png) [dbo].[tb_FilePolling_parm]
 
 ---
@@ -10,7 +8,7 @@
 
 | Key | Name | Data Type | Max Length (Bytes) | Allow Nulls |
 |---|---|---|---|---|
-| [![Cluster Primary Key PK_tb_FilePolling_parm: AppID](../../../../Images/pkcluster.png)](#indexes) | AppID | char(6) | 6 | NO |
+| [![Cluster Primary Key PK_tb_FilePolling_parm: AppID](../Images/pkcluster.png)](#indexes) | AppID | char(6) | 6 | NO |
 |  | FileName | varchar(255) | 255 | NO |
 |  | FileLocation | varchar(1024) | 1024 | NO |
 |  | Description | varchar(4096) | 4096 | YES |
@@ -32,6 +30,3 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
-

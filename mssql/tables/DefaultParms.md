@@ -1,7 +1,5 @@
 #### 
 
-[Project](../../../../index.md) > [SERVER\\MSSQL1601](../../../index.md) > [User databases](../../index.md) > [dbamgnt](../index.md) > [Tables](Tables.md) > dbo.DefaultParms
-
 # ![Tables](../Images/Table32.png) [dbo].[DefaultParms]
 
 ---
