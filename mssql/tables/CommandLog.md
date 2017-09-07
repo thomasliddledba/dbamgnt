@@ -2,7 +2,7 @@
 
 [Project](../../../../index.md) > [SERVER\\MSSQL1601](../../../index.md) > [User databases](../../index.md) > [dbamgnt](../index.md) > [Tables](Tables.md) > dbo.CommandLog
 
-# ![Tables](../../../../Images/Table32.png) [dbo].[CommandLog]
+# ![Tables](../Images/Table32.png) [dbo].[CommandLog]
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Key | Name | Data Type | Max Length (Bytes) | Allow Nulls | Identity |
 |---|---|---|---|---|---|
-| [![Cluster Primary Key PK_CommandLog: ID](../../../../Images/pkcluster.png)](#indexes) | ID | int | 4 | NO | 1 - 1 |
+| [![Cluster Primary Key PK_CommandLog: ID](../Images/pkcluster.png)](#indexes) | ID | int | 4 | NO | 1 - 1 |
 |  | DatabaseName | [sys].[sysname] | 256 | YES |  |
 |  | SchemaName | [sys].[sysname] | 256 | YES |  |
 |  | ObjectName | [sys].[sysname] | 256 | YES |  |
@@ -51,6 +51,3 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
-

@@ -2,7 +2,7 @@
 
 [Project](../../../../index.md) > [SERVER\\MSSQL1601](../../../index.md) > [User databases](../../index.md) > [dbamgnt](../index.md) > Tables
 
-# ![Tables](../../../../Images/Table32.png) Tables
+# ![Tables](../Images/Table32.png) Tables
 
 ---
 
@@ -25,6 +25,3 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
-

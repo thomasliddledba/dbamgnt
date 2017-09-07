@@ -2,14 +2,14 @@
 
 [Project](../../../index.md) > [SERVER\\MSSQL1601](../../index.md) > [User databases](../index.md) > dbamgnt
 
-# ![Database](../../../Images/ntDatabase.png) dbamgnt Database
+# ![Database](images/ntDatabase.png) dbamgnt Database
 
 ---
 
 ## <a name="#objecttypes"></a>Object Types
 
-* ![Tables](../../../Images/Table.png) [Tables](Tables/Tables.md)
-* ![Stored Procedures](../../../Images/StoredProcedure.png) [Stored Procedures](Programmability/Stored_Procedures/Stored_Procedures.md)
+* ![Tables](images/Table.png) [Tables](Tables/Tables.md)
+* ![Stored Procedures](images/StoredProcedure.png) [Stored Procedures](Programmability/Stored_Procedures/Stored_Procedures.md)
 
 
 ---
@@ -94,6 +94,3 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
-
