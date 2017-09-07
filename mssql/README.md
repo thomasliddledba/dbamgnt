@@ -1,6 +1,6 @@
 #### 
 
-# ![Database](images/ntDatabase.png) dbamgnt Database
+# ![Database](Images/ntDatabase.png) dbamgnt Database
 
 ---
 

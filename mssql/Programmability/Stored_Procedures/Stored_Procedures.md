@@ -1,8 +1,6 @@
 #### 
 
-[Project](../../../../../index.md) > [SERVER\\MSSQL1601](../../../../index.md) > [User databases](../../../index.md) > [dbamgnt](../../index.md) > [Programmability](../index.md) > Stored Procedures
-
-# ![Stored Procedures](../../../../../Images/StoredProcedure32.png) Stored Procedures
+# ![Stored Procedures](../../Images/StoredProcedure32.png) Stored Procedures
 
 ---
 
@@ -42,6 +40,4 @@
 ###### Author:  Thomas Liddle
 
 ###### Copyright 2017 - All Rights Reserved
-
-###### Created: Tuesday, September 5, 2017 5:48:38 AM
 

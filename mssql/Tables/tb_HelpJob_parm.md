@@ -1,6 +1,6 @@
 #### 
 
-# ![Tables](../../../../Images/Table32.png) [dbo].[tb_HelpJob_parm]
+# ![Tables](../Images/Table32.png) [dbo].[tb_HelpJob_parm]
 
 ---
 
